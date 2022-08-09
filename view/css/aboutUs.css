@@ -1,0 +1,146 @@
+@import "./base.css";
+
+.aboutUs__container .image {
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.aboutUs__container .image img {
+    width: 1200px;
+    height: 400px;
+}
+
+.aboutUs__container .content {
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.aboutUs__container .content p {
+    color: grey;
+    font-size: 20px;
+    margin: 5px 0 5px 0;
+}
+
+.aboutUs__container .content h1 {
+    font-size: 50px;
+}
+
+.aboutUs__container .content_one {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 550px;
+    margin-top: 50px;
+}
+
+.aboutUs__container .content_one1 {
+    text-align: center;
+    margin-left: 60px;
+}
+
+.aboutUs__container .content_one1 img {
+    width: 70px;
+    height: 70px;
+}
+
+.aboutUs__container .content_one1 p {
+    color: grey;
+    font-size: 20px;
+    margin: 5px 0 5px 0;
+}
+
+.aboutUs__container .visit {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.aboutUs__container .visit_conten {
+    margin-right: 200px;
+}
+
+.aboutUs__container .visit_conten p {
+    color: gray;
+    font-size: 30px;
+    margin-bottom: 5px;
+    font-style: italic;
+}
+
+.aboutUs__container .visit_conten h2 {
+    font-size: 50px;
+}
+
+.aboutUs__container .visit_conten button {
+    width: 150px;
+    height: 40px;
+    background-color: darkgreen;
+    color: white;
+    font-size: 20px;
+}
+
+.aboutUs__container .visit_conten button:hover {
+    background-color: chartreuse;
+    cursor: pointer;
+    width: 170px;
+    height: 42px;
+}
+
+.aboutUs__container .visit_img img {
+    width: 600px;
+    height: 350px;
+}
+
+.aboutUs__container .tour {
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.aboutUs__container .tour_one {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.aboutUs__container .tour_one_city {
+    position: relative;
+    display: inline-block;
+    margin-left: 35px;
+}
+
+.aboutUs__container .tour_one_city img {
+    width: 300px;
+    height: 300px;
+}
+
+.aboutUs__container .tour_one_city button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: green;
+    color: white;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+
+.aboutUs__container .tour_one_city:hover button {
+    display: block;
+}
+
+.aboutUs__container .tour_one_park {
+    margin-left: 200px;
+}
+
+.aboutUs__container .tour_one_park img {
+    width: 500px;
+    height: 300px;
+}
